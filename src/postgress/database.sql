@@ -1,0 +1,7 @@
+CREATE DATABASE PGTodo;
+
+
+CREATE TABLE todo(
+    id SERIAL PRIMARY KEY,
+    description VARCHAR(255)
+)
