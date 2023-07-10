@@ -1,7 +1,4 @@
 const env = require("dotenv").config()
 
-module.exports = {
-    PORT,
-    HOST
-} = process.env
+module.exports = { PORT, DB_HOST, DB_PORT } = process.env;
 
